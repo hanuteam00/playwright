@@ -1,0 +1,11 @@
+1.Generating tests
+https://playwright.dev/docs/codegen-intro
+
+Recording a Trace
+npx playwright test --trace on
+
+Create a repo Github (https://docs.github.com/en/get-started/quickstart/create-a-repo)
+- Create a repository, including a README file
+- Commit your first change (A commit is like a snapshot of all the files in your project at a particular point in time.)
+- Cloning a repository (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+  + Install GIT via Homebrew or Xcode
