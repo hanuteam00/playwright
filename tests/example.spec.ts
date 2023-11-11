@@ -17,7 +17,7 @@ test('TC2 - get started link', async ({ page }) => {
   //const getStarted = page.getByRole('link', { name: 'Get started' });
   // Click it.
   //await getStarted.click();
-  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.getByRole('link', { name: 'Get started1234' }).click();
 
   //Assertions
   // Expects page to have a heading with the name of Installation.

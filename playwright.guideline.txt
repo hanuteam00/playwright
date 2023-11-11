@@ -9,3 +9,12 @@ Create a repo Github (https://docs.github.com/en/get-started/quickstart/create-a
 - Commit your first change (A commit is like a snapshot of all the files in your project at a particular point in time.)
 - Cloning a repository (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
   + Install GIT via Homebrew or Xcode
+
+- push a directory to a GitHub repository using Visual Studio Code
+git init
+git add . (This adds all the files in the current directory to the staging area. Replace . with specific file names if you only want to add certain files.)
+git commit -m "Initial commit"
+git remote set-url origin https://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@github.com/hanuteam00/playwright.git
+(from Aug 2021 should use this)
+git push -u origin master
+
